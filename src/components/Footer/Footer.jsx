@@ -10,10 +10,10 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className="footer-icons">
-        <img src='facebook_icon' alt=''/>
-        <img src='instagram_icon' alt=''/>
-        <img src='twitter_icon' alt=''/>
-        <img src='youtube_icon' alt=''/>
+        <img src={facebook_icon} alt=''/>
+        <img src={instagram_icon} alt=''/>
+        <img src={twitter_icon} alt=''/>
+        <img src={youtube_icon} alt=''/>
       </div>
       <ul>
         <li>Auto Description</li>
@@ -29,7 +29,6 @@ const Footer = () => {
         <li>Corporate Information</li>
         <li>Contact Us</li>
       </ul>
-        <li>Auto Description</li>
         <p className='Copyrigth-text'>© 1997-2023 Netflix, </p>
     </div>
   )
