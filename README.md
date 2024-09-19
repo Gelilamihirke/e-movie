@@ -1,18 +1,29 @@
 🎬 e-movie
+
 A fully responsive e-movie application built using React, Firebase for authentication, and Vite as the build tool. The app allows users to browse movie lists, view details, and log in via email authentication.
 
 📌 Features
+
+
 Responsive UI: Adjusts seamlessly across various screen sizes and devices.
 Browse Movies: Displays a list of movies fetched from a movie API.
 Movie Details: Shows detailed information about a selected movie, including description, ratings, etc.
 User Authentication: Powered by Firebase (Email sign-in, sign-out).
 React Router: Dynamic routing between pages.
+
+
 🛠️ Tech Stack
+
+
 Frontend: React, React Router, CSS/Bootstrap
 Backend: Firebase (Authentication)
 Build Tool: Vite
 API: TMDB API
+
+
 📂 Project Structure
+
+
 bash
 Copy code
 ├── public               # Public assets
@@ -82,7 +93,11 @@ Preview the production build
 bash
 Copy code
 npm run preview
+
+
 🔑 Firebase Configuration
+
+
 You need to add your Firebase credentials in .env as mentioned above. Here's an example Firebase setup inside your app:
 
 js
@@ -99,7 +114,9 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+
 📦 Deployment
+
 Netlify
 Push your code to GitHub.
 Connect your repository to Netlify.
@@ -118,9 +135,13 @@ Deploy the app:
 bash
 Copy code
 firebase deploy
+
 🛠️ Future Enhancements
+
 Add payment gateway (Stripe) for subscription models.
 Implement more user-friendly features like watchlists, movie recommendations, and profile settings.
 Use Firebase Firestore for saving user data.
+
 📄 License
+
 This project is licensed under the MIT License.
