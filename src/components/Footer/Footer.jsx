@@ -1,21 +1,24 @@
 import React from 'react'
-import './Footer.css'
+import './Footer.css' // Importing the CSS file for Footer styling
+
+// Importing social media icons
 import youtube_icon from '../../assets/youtube_icon.png'
 import twitter_icon from '../../assets/twitter_icon.png'
 import instagram_icon from '../../assets/instagram_icon.png'
-
 import facebook_icon from '../../assets/facebook_icon.png'
 
 const Footer = () => {
   return (
-    <div className='footer'>
-      <div className="footer-icons">
-        <img src={facebook_icon} alt=''/>
-        <img src={instagram_icon} alt=''/>
-        <img src={twitter_icon} alt=''/>
-        <img src={youtube_icon} alt=''/>
+    <div className='footer'> {/* Main footer container */}
+      
+      <div className="footer-icons"> {/* Social media icons section */}
+        <img src={facebook_icon} alt=''/> {/* Facebook icon */}
+        <img src={instagram_icon} alt=''/> {/* Instagram icon */}
+        <img src={twitter_icon} alt=''/> {/* Twitter icon */}
+        <img src={youtube_icon} alt=''/> {/* YouTube icon */}
       </div>
-      <ul>
+
+      <ul> {/* Footer links section */}
         <li>Auto Description</li>
         <li>Help Center</li>
         <li>Gift Cards</li>
@@ -29,7 +32,11 @@ const Footer = () => {
         <li>Corporate Information</li>
         <li>Contact Us</li>
       </ul>
-        <p className='Copyrigth-text'>© 1997-2023 Netflix, </p>
+
+      <p className='Copyrigth-text'> {/* Footer copyright text */}
+        © 1997-2023 Netflix, 
+      </p>
+
     </div>
   )
 }
