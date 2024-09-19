@@ -145,3 +145,17 @@ Use Firebase Firestore for saving user data.
 📄 License
 
 This project is licensed under the MIT License.
+
+some screenshoot of the project
+the login page
+<img width="960" alt="login" src="https://github.com/user-attachments/assets/b471a43a-da10-4cdd-aba8-0387dd04f093">
+the home page
+<img width="960" alt="home" src="https://github.com/user-attachments/assets/5c357864-3023-43f7-a376-64e83e80135a">
+The player page
+<img width="960" alt="player" src="https://github.com/user-attachments/assets/c0a36ad7-95d8-46cb-b0c2-b615839cc628">
+The footer page
+<img width="960" alt="footer" src="https://github.com/user-attachments/assets/3961c4a3-cec2-4fa9-9632-0a7bbf1ae9c1">
+
+
+
+
